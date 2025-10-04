@@ -2,17 +2,16 @@
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-variation-settings: "wdth" 100;
 }
 
 /* Shared styles */
 .bg-secondary {
-    background: #FFF8F3;
+    background: #fff8f3;
 }
 
 .text-primary {
-    color: #FD6E0A;
+    color: #fd6e0a;
 }
 
 .dark-2 {
@@ -20,14 +19,13 @@
 }
 
 .btn-primary {
-    background: #FD6E0A;
+    background: #fd6e0a;
     font-weight: bold;
     color: white;
     padding: 15px 35px;
     border-radius: 5px;
     border: 0;
     font-size: 20px;
-    
 }
 
 .section-title {
@@ -50,7 +48,7 @@
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right ;
+    background-position: top left, bottom right;
 }
 
 /* nav styles */
@@ -59,7 +57,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -67,9 +65,8 @@ nav {
     font-size: 45px;
 }
 
-
 nav ul {
-    display: flex; ;
+    display: flex;
     align-items: center;
 }
 
@@ -88,7 +85,7 @@ nav ul li a {
 .banner {
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 235px
+    margin: 0 35px 0 235px;
 }
 
 .banner-greeting {
@@ -116,25 +113,36 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* about related styles */
 
 .about {
     border-radius: 10px;
-    padding: 130px 150px ;
+    padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-between;
 }
 
-.item-description{
+.item-description {
     font-weight: 600;
 }
 
 /* skills section styles*/
-.skills-container{
-    display: flex;;
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
