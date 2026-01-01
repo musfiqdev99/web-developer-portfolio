@@ -31,6 +31,18 @@ body {
     padding: 18px 35px;
 }
 
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+
+}
+
 /* header styles */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -43,7 +55,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 
 .nav-title {
